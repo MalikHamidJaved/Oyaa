@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_bottom_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_gravity="bottom"
+    android:visibility="visible">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/transparent_black"></View>
+
+    <LinearLayout
+        android:id="@+id/ll_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:weightSum="5">
+
+        <RadioGroup
+            android:id="@+id/rg_bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/rb_message"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/message_background"
+                android:checked="false"
+                android:scaleType="fitCenter" />
+
+            <RadioButton
+                android:id="@+id/rb_call"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/call_background"
+                android:checked="false"
+                android:scaleType="fitCenter" />
+
+            <RadioButton
+                android:id="@+id/rb_friends"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/connect_background"
+                android:checked="false"
+                android:scaleType="fitCenter" />
+
+            <RadioButton
+                android:id="@+id/rb_shop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/shop_background"
+                android:checked="false"
+                android:scaleType="fitCenter" />
+
+            <RadioButton
+                android:id="@+id/rb_more"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/more_background"
+                android:checked="false"
+                android:scaleType="fitCenter" />
+        </RadioGroup>
+        <!--<ImageButton-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@color/transparent"-->
+        <!--android:src="@drawable/ic_home_selected"/>-->
+        <!--<ImageButton-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@color/transparent"-->
+        <!--android:src="@drawable/ic_business_selected"/>-->
+        <!--<ImageButton-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@color/transparent"-->
+        <!--android:src="@drawable/ic_setting_selected"/>-->
+        <!--<ImageButton-->
+        <!--android:layout_width="0dp"-->
+        <!--android:background="@color/transparent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:layout_weight="1"-->
+        <!--android:src="@drawable/ic_analytics_selected"/>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_icon"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:weightSum="5">
+
+        <RadioGroup
+            android:id="@+id/rg_bottom_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_message_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@color/transparent"
+                android:checked="true"
+                android:gravity="left"
+                android:text="Message" />
+
+            <RadioButton
+                android:id="@+id/rb_call_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@color/transparent"
+                android:gravity="left"
+                android:text="   Call" />
+
+            <RadioButton
+                android:id="@+id/rb_friends_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@color/transparent"
+                android:gravity="left"
+                android:text="Friends" />
+
+            <RadioButton
+                android:id="@+id/rb_shop_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@color/transparent"
+                android:gravity="left"
+                android:text="Shop" />
+
+            <RadioButton
+                android:id="@+id/rb_more_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@color/transparent"
+                android:gravity="left"
+                android:text=" More" />
+        </RadioGroup>¬
+    </LinearLayout>
+</RelativeLayout><!--<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:id="@+id/btn"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:layout_alignParentBottom="true"--><!--android:layout_gravity="bottom"--><!--android:src="@drawable/ic_mute" />-->

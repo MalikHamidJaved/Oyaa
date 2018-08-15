@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/rl_backgroung_privacy">
+
+    <RelativeLayout
+        android:id="@+id/rl_select_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tv_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Online Status"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rg_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_tag"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb_everyone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:padding="8dp"
+                android:text="Everyone"
+                android:textColor="@color/black"
+                android:textSize="18sp"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/rb_friends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Friends"
+                android:textColor="@color/black"
+                android:textSize="18sp"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/rb_none"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="None"
+                android:textColor="@color/black"
+                android:textSize="18sp"></RadioButton>
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/rl_select_option"
+        android:background="@color/transparent"
+        android:text="CANCEL"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_select_option"
+        android:layout_toLeftOf="@id/btn_cancel"
+        android:background="@color/transparent"
+        android:text="Ok"
+        android:textColor="@color/colorPrimary" />
+</RelativeLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_calls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_toolbar_call" />
+
+    <TextView
+        android:id="@+id/tv_toolbar_call"
+        style="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Call"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/rl_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_toolbar_call"
+        android:padding="8dp"
+        android:visibility="gone">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userImage"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:src="@drawable/yoohoo_placeholder" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/userImage"
+            android:paddingLeft="8dp">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/iv_audio_video"
+                android:text="Hardik Raiyani"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <ImageView
+                android:id="@+id/iv_answer_reject"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_below="@+id/tv_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_call_received" />
+
+            <TextView
+                android:id="@+id/tv_time_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_name"
+                android:layout_toLeftOf="@+id/iv_audio_video"
+                android:layout_toRightOf="@+id/iv_answer_reject"
+                android:text="19 July, 12:51 AM"
+                android:textSize="12sp" />
+
+
+            <ImageView
+                android:id="@+id/iv_audio_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="8dp"
+                android:src="@drawable/ic_video_call_blue" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/rl_one"
+        android:background="@color/bg_gray"
+        android:visibility="gone"></View>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_one"
+        android:layout_centerVertical="true"
+        android:padding="8dp"
+        android:visibility="gone">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userImage1"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:src="@drawable/yoohoo_placeholder" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/userImage1"
+            android:paddingLeft="8dp">
+
+            <TextView
+                android:id="@+id/tv_name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/iv_audio_video1"
+                android:text="Arjun Dobaria"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <ImageView
+                android:id="@+id/iv_answer_reject1"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_below="@+id/tv_name1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_call_received_green" />
+
+            <TextView
+                android:id="@+id/tv_time_date1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_name1"
+                android:layout_toLeftOf="@+id/iv_audio_video1"
+                android:layout_toRightOf="@+id/iv_answer_reject1"
+                android:text="18 July, 11:58 PM"
+                android:textSize="12sp" />
+
+
+            <ImageView
+                android:id="@+id/iv_audio_video1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="8dp"
+                android:src="@drawable/ic_app_call_blue" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>--><!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent">-->
+
+    <!--<TextView--><!--android:id="@+id/tv_toolbar_call"--><!--style="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title"--><!--android:layout_width="match_parent"--><!--android:layout_height="?attr/actionBarSize"--><!--android:background="@color/colorPrimary"--><!--android:gravity="center"--><!--android:text="Call"--><!--android:textColor="@android:color/white"--><!--android:textStyle="bold" />-->
+
+    <!--<android.support.v7.widget.RecyclerView--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_below="@+id/tv_toolbar_call"></android.support.v7.widget.RecyclerView>--><!--</RelativeLayout>-->

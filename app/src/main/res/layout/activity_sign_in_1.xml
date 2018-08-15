@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.verbosetech.yoohoo.activities.SignInActivity">
+
+    <include
+        android:id="@+id/splash"
+        layout="@layout/activity_splash"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4" />
+
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="32dp">
+
+                <TextView
+                    android:id="@+id/tv_your_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="@string/your_country"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_your_country"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true">
+
+
+                    <ImageView
+                        android:id="@+id/iv_country"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+                    <!--android:src="@drawable/flag_india"-->
+
+                    <TextView
+                        android:id="@+id/tv_country_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_country"
+                        android:background="@color/transparent"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="4dp"
+
+                        android:textColor="@android:color/black" />
+
+                    <!--android:text="(IN)"-->
+
+                    <TextView
+                        android:id="@+id/tv_country_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tv_country_code"
+                        android:background="@color/transparent"
+
+                        android:textColor="@android:color/black" />
+
+                    <!--android:text="+91"-->
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tv_country_name"
+                        android:layout_alignTop="@+id/tv_country_name"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tv_country_name"
+                        android:src="@drawable/ic_down_arrow" />
+                </RelativeLayout>
+
+                <!--<android.support.v7.widget.AppCompatSpinner-->
+                <!--android:id="@+id/countryCode"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" />-->
+
+                <View
+                    android:id="@+id/countryCodeDivider"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/rl_country"
+                    android:layout_marginBottom="24dp"
+                    android:background="@color/colorPrimaryDark" />
+
+                <EditText
+                    android:id="@+id/phoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/countryCodeDivider"
+                    android:background="@null"
+                    android:hint="Your phone number"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <View
+                    android:id="@+id/view_phonenumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/phoneNumber"
+                    android:background="@color/colorPrimaryDark" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_agree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_phonenumber"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="16dp">
+
+                    <CheckBox
+                        android:id="@+id/cb_agree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/cb_agree"
+                        android:layout_alignTop="@+id/cb_agree"
+                        android:layout_toRightOf="@+id/cb_agree"
+                        android:gravity="center_vertical"
+                        android:text="@string/agree"
+                        android:textColor="?attr/editTextColor"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/tv_otp_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rl_agree"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="@string/message_otp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/tv_otp_message"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/round_blue"
+                    android:gravity="center"
+                    android:paddingBottom="12dp"
+                    android:paddingEnd="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingTop="12dp"
+                    android:text="Confirm"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>--><!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:app="http://schemas.android.com/apk/res-auto"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:orientation="vertical"--><!--android:weightSum="10"--><!--tools:context="com.verbosetech.yoohoo.activities.SignInActivity">-->
+
+    <!--<include--><!--layout="@layout/activity_splash"--><!--android:layout_width="match_parent"--><!--android:layout_height="0dp"--><!--android:layout_weight="4" />-->
+
+    <!--<RelativeLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="0dp"--><!--android:layout_weight="6"--><!--android:padding="32dp">-->
+
+    <!--<android.support.v7.widget.AppCompatSpinner--><!--android:id="@+id/countryCode"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content" />-->
+
+    <!--<View--><!--android:id="@+id/countryCodeDivider"--><!--android:layout_width="match_parent"--><!--android:layout_height="2dp"--><!--android:layout_below="@+id/countryCode"--><!--android:layout_marginBottom="24dp"--><!--android:background="@color/colorPrimaryDark" />-->
+
+    <!--<EditText--><!--android:id="@+id/phoneNumber"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:layout_below="@+id/countryCodeDivider"--><!--android:hint="Your phone number"--><!--android:inputType="phone"--><!--android:maxLines="1"--><!--android:background="@null"--><!--android:textColor="@android:color/black"--><!--android:textSize="18sp" />-->
+
+    <!--<View--><!--android:layout_width="match_parent"--><!--android:layout_height="2dp"--><!--android:layout_below="@+id/phoneNumber"--><!--android:background="@color/colorPrimaryDark" />-->
+
+    <!--<TextView--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:layout_above="@+id/submit"--><!--android:layout_marginBottom="32dp"--><!--android:gravity="center"--><!--android:text="@string/message_otp"--><!--android:textSize="16sp" />-->
+
+    <!--<TextView--><!--android:id="@+id/submit"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:layout_alignParentBottom="true"--><!--android:background="@drawable/round_blue"--><!--android:gravity="center"--><!--android:paddingBottom="12dp"--><!--android:paddingEnd="16dp"--><!--android:paddingStart="16dp"--><!--android:paddingTop="12dp"--><!--android:text="Confirm"--><!--android:textColor="@android:color/white"--><!--android:textSize="18sp" />--><!--</RelativeLayout>--><!--</LinearLayout>-->

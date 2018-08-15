@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "564856327445",
+    "firebase_url": "https://oyeapp-5d238.firebaseio.com",
+    "project_id": "oyeapp-5d238",
+    "storage_bucket": "oyeapp-5d238.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564856327445:android:c4d50fac291fc5b7",
+        "android_client_info": {
+          "package_name": "com.verbosetech.yoohoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564856327445-nfqa2t469154s8eavdoqsi95ofcgf5jn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5Epm9uQVnCVPUlwXAxTJJ8E1zUUsoFy0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

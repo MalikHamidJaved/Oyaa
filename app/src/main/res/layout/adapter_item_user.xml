@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:paddingTop="8dp"
+    android:layout_height="72dp">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/user_image"-->
+        <!--android:layout_width="72dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:transitionName="userImage"-->
+        <!--app:srcCompat="@drawable/yoohoo_placeholder" />-->
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_image"
+        android:layout_width="72dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:transitionName="userImage"
+        app:srcCompat="@drawable/yoohoo_placeholder" />
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/user_details_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/user_image"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+
+        <TextView
+            android:id="@+id/emotion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Relaxed"
+            android:textAllCaps="true"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Now" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emotion"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:drawableRight="@drawable/ring_blue"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="a name"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_name"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="message"
+            android:textColor="@color/textColorSecondary" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
