@@ -16,6 +16,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.verbosetech.yoohoo.R;
 import com.verbosetech.yoohoo.models.User;
 import com.verbosetech.yoohoo.utils.Helper;
+import com.verbosetech.yoohoo.views.WorkingInProgressDialog;
 
 
 public class MoreFragment extends BaseFullDialogFragment implements View.OnClickListener {
@@ -124,15 +125,16 @@ public class MoreFragment extends BaseFullDialogFragment implements View.OnClick
     }
 
     private void changeFragment() {
+        new WorkingInProgressDialog(getContext()).show();
 
-        FragmentTransaction transaction = getFragmentManager().beginTransaction();
-        tvHeader.setText("Secret Chats");
-// Replace whatever is in the fragment_container view with this fragment,
-// and add the transaction to the back stack if needed
-        transaction.replace(R.id.fragment_container, SecretChatFragment.newInstance(userMe));
-        transaction.addToBackStack(null);
-
-// Commit the transaction
-        transaction.commit();
+//        FragmentTransaction transaction = getFragmentManager().beginTransaction();
+//        tvHeader.setText("Secret Chats");
+//// Replace whatever is in the fragment_container view with this fragment,
+//// and add the transaction to the back stack if needed
+//        transaction.replace(R.id.fragment_container, SecretChatFragment.newInstance(userMe));
+//        transaction.addToBackStack(null);
+//
+//// Commit the transaction
+//        transaction.commit();
     }
 }

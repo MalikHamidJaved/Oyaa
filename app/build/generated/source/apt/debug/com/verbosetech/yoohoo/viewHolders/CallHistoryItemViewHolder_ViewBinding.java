@@ -10,6 +10,7 @@ import android.widget.TextView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import com.verbosetech.yoohoo.R;
+import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 
@@ -23,6 +24,7 @@ public class CallHistoryItemViewHolder_ViewBinding implements Unbinder {
     target.contAppointment = Utils.findRequiredViewAsType(source, R.id.rl_one, "field 'contAppointment'", RelativeLayout.class);
     target.tvName = Utils.findRequiredViewAsType(source, R.id.tv_name, "field 'tvName'", TextView.class);
     target.tvChecklist = Utils.findRequiredViewAsType(source, R.id.tv_time_date, "field 'tvChecklist'", TextView.class);
+    target.ivProfile = Utils.findRequiredViewAsType(source, R.id.userImage, "field 'ivProfile'", CircleImageView.class);
     target.ivAnswer = Utils.findRequiredViewAsType(source, R.id.iv_answer, "field 'ivAnswer'", ImageView.class);
     target.ivCallType = Utils.findRequiredViewAsType(source, R.id.iv_call_type, "field 'ivCallType'", ImageView.class);
   }
@@ -37,6 +39,7 @@ public class CallHistoryItemViewHolder_ViewBinding implements Unbinder {
     target.contAppointment = null;
     target.tvName = null;
     target.tvChecklist = null;
+    target.ivProfile = null;
     target.ivAnswer = null;
     target.ivCallType = null;
   }

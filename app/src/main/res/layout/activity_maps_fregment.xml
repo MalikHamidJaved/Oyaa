@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9">
+
+    <LinearLayout
+        android:id="@+id/actionbar1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_weight="0.8"
+        android:background="#31BBA8"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="6dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.8"
+
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:textColor="#0576e2"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingRight="20dp"
+                android:text="User Location"
+                android:textAllCaps="true"
+                android:textColor="#f3fcfa"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/cont_user_data"
+
+        android:elevation="3dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/location_autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:hint="Enter Place Here"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.4">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.xeven.hamid.kamsham.Fragments.MapsFregment" />
+
+        <TextView
+            android:id="@+id/tv_click_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="11dp"
+            android:gravity="center"
+            android:paddingRight="20dp"
+            android:text="Click And hold to drop pin and then click Done"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:background="#32BBA9"
+        android:text="Done"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</LinearLayout>

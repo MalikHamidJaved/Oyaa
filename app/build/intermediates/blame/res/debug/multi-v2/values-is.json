@@ -13,11 +13,11 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "40",
+                        "startLines": "41",
                         "startColumns": "4",
-                        "startOffsets": "4751",
+                        "startOffsets": "4855",
                         "endColumns": "100",
-                        "endOffsets": "4847"
+                        "endOffsets": "4951"
                     }
                 },
                 {
@@ -30,11 +30,28 @@
                         "endOffsets": "200,297,409,494,595,709,789,869,950,1060,1168,1266,1375,1474,1577,1732,1830,1911"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,39",
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,40",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,205,302,414,499,600,714,794,874,955,1065,1173,1271,1380,1479,1582,1737,4670",
+                        "startOffsets": "105,205,302,414,499,600,714,794,874,955,1065,1173,1271,1380,1479,1582,1737,4774",
                         "endColumns": "99,96,111,84,100,113,79,79,80,109,107,97,108,98,102,154,97,80",
-                        "endOffsets": "200,297,409,494,595,709,789,869,950,1060,1168,1266,1375,1474,1577,1732,1830,4746"
+                        "endOffsets": "200,297,409,494,595,709,789,869,950,1060,1168,1266,1375,1474,1577,1732,1830,4850"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Malik Hamid\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-gcm-15.0.0.aar\\c5d21c1c1a07c196cd87163cc2b15926\\res\\values-is\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "190",
+                        "endColumns": "99",
+                        "endOffsets": "289"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4472",
+                        "endColumns": "103",
+                        "endOffsets": "4571"
                     }
                 },
                 {
@@ -81,11 +98,11 @@
                         "endOffsets": "291,382"
                     },
                     "to": {
-                        "startLines": "37,38",
+                        "startLines": "38,39",
                         "startColumns": "4,4",
-                        "startOffsets": "4472,4575",
+                        "startOffsets": "4576,4679",
                         "endColumns": "102,94",
-                        "endOffsets": "4570,4665"
+                        "endOffsets": "4674,4769"
                     }
                 }
             ]

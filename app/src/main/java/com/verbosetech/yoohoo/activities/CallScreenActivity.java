@@ -340,6 +340,7 @@ public class CallScreenActivity extends BaseActivity implements View.OnClickList
         message.setDelivered(btn_speaker.getVisibility() == View.VISIBLE);
         message.setDate(new Date().getTime());
         message.setRecipientId(call.getRemoteUserId());
+        message.setRecipientName(tv_name.getText().toString());
         message.setId(Helper.getChatChild(userMe.getId(),call.getRemoteUserId()));
 
         //Add messages in chat child

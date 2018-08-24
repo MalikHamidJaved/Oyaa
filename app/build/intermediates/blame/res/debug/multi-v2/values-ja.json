@@ -13,11 +13,11 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "63",
+                        "startLines": "64",
                         "startColumns": "4",
-                        "startOffsets": "6761",
+                        "startOffsets": "6860",
                         "endColumns": "100",
-                        "endOffsets": "6857"
+                        "endOffsets": "6956"
                     }
                 },
                 {
@@ -55,6 +55,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Malik Hamid\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-gcm-15.0.0.aar\\c5d21c1c1a07c196cd87163cc2b15926\\res\\values-ja\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "190",
+                        "endColumns": "94",
+                        "endOffsets": "284"
+                    },
+                    "to": {
+                        "startLines": "60",
+                        "startColumns": "4",
+                        "startOffsets": "6494",
+                        "endColumns": "98",
+                        "endOffsets": "6588"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Malik Hamid\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-15.0.0.aar\\c1caf287bc658559800bc1d3be3e4cf0\\res\\values-ja\\values.xml",
                     "from": {
                         "startLines": "4,5",
@@ -64,11 +81,11 @@
                         "endOffsets": "285,373"
                     },
                     "to": {
-                        "startLines": "60,61",
+                        "startLines": "61,62",
                         "startColumns": "4,4",
-                        "startOffsets": "6494,6591",
+                        "startOffsets": "6593,6690",
                         "endColumns": "96,91",
-                        "endOffsets": "6586,6678"
+                        "endOffsets": "6685,6777"
                     }
                 },
                 {
@@ -98,11 +115,11 @@
                         "endOffsets": "197,290,395,477,575,683,760,836,914,1016,1115,1210,1313,1408,1504,1652,1749,1827"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,62",
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,63",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,202,295,400,482,580,688,765,841,919,1021,1120,1215,1318,1413,1509,1657,6683",
+                        "startOffsets": "105,202,295,400,482,580,688,765,841,919,1021,1120,1215,1318,1413,1509,1657,6782",
                         "endColumns": "96,92,104,81,97,107,76,75,77,101,98,94,102,94,95,147,96,77",
-                        "endOffsets": "197,290,395,477,575,683,760,836,914,1016,1115,1210,1313,1408,1504,1652,1749,6756"
+                        "endOffsets": "197,290,395,477,575,683,760,836,914,1016,1115,1210,1313,1408,1504,1652,1749,6855"
                     }
                 }
             ]

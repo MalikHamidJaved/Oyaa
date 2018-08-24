@@ -63,7 +63,7 @@ public class Helper {
     public static String CURRENT_CHAT_ID;
     public static boolean CHAT_CAB = false, CHAT_NOTIFY = true;
     //    public static final String REF_STORAGE = "gs://b2bapp-7dd94.appspot.com";
-    public static final String REF_STORAGE = "gs://oyapp-d429f.appspot.com";
+    public static final String REF_STORAGE = "gs://oyeapp-5d238.appspot.com";
 
 
     private SharedPreferenceHelper sharedPreferenceHelper;
@@ -210,10 +210,22 @@ public class Helper {
 //        String reverseUserNumber = new StringBuffer(userPhone).reverse().toString().substring(0, 7);
 //        String reversePhoneNumber = new StringBuffer(phoneNumber).reverse().toString().substring(0, 7);
 //        return reversePhoneNumber.equals(reverseUserNumber);
+
         return userPhone.substring(userPhone.length() - 7, userPhone.length()).equals(phoneNumber.substring(phoneNumber.length() - 7, phoneNumber.length()));
 
     }
+    public static boolean contactMatches2(String userPhone, String phoneNumber) {
+        if (userPhone.length() < 8 || phoneNumber.length() < 8)
+            return false;
+//        String reverseUserNumber = new StringBuffer(userPhone).reverse().toString().substring(0, 7);
+//        String reversePhoneNumber = new StringBuffer(phoneNumber).reverse().toString().substring(0, 7);
+//        return reversePhoneNumber.equals(reverseUserNumber);
+        String sender = userPhone.substring(3);
+        String sendercomparing = phoneNumber.substring(1);
+        boolean isMatch = sender.contains(sendercomparing);
+        return isMatch;
 
+    }
 
     public static Realm getRealmInstance() {
         RealmConfiguration config = new RealmConfiguration.Builder().deleteRealmIfMigrationNeeded().build();

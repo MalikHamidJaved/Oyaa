@@ -42,6 +42,7 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
         public long senderNameIndex;
         public long senderIdIndex;
         public long recipientIdIndex;
+        public long recipientNameIndex;
         public long dateIndex;
         public long deliveredIndex;
         public long sentIndex;
@@ -49,7 +50,7 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
         public long attachmentIndex;
 
         CallColumnInfo(String path, Table table) {
-            final Map<String, Long> indicesMap = new HashMap<String, Long>(13);
+            final Map<String, Long> indicesMap = new HashMap<String, Long>(14);
             this.imageIndex = getValidColumnIndex(path, table, "Call", "image");
             indicesMap.put("image", this.imageIndex);
             this.idIndex = getValidColumnIndex(path, table, "Call", "id");
@@ -66,6 +67,8 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
             indicesMap.put("senderId", this.senderIdIndex);
             this.recipientIdIndex = getValidColumnIndex(path, table, "Call", "recipientId");
             indicesMap.put("recipientId", this.recipientIdIndex);
+            this.recipientNameIndex = getValidColumnIndex(path, table, "Call", "recipientName");
+            indicesMap.put("recipientName", this.recipientNameIndex);
             this.dateIndex = getValidColumnIndex(path, table, "Call", "date");
             indicesMap.put("date", this.dateIndex);
             this.deliveredIndex = getValidColumnIndex(path, table, "Call", "delivered");
@@ -91,6 +94,7 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
             this.senderNameIndex = otherInfo.senderNameIndex;
             this.senderIdIndex = otherInfo.senderIdIndex;
             this.recipientIdIndex = otherInfo.recipientIdIndex;
+            this.recipientNameIndex = otherInfo.recipientNameIndex;
             this.dateIndex = otherInfo.dateIndex;
             this.deliveredIndex = otherInfo.deliveredIndex;
             this.sentIndex = otherInfo.sentIndex;
@@ -119,6 +123,7 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
         fieldNames.add("senderName");
         fieldNames.add("senderId");
         fieldNames.add("recipientId");
+        fieldNames.add("recipientName");
         fieldNames.add("date");
         fieldNames.add("delivered");
         fieldNames.add("sent");
@@ -387,6 +392,36 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
 
     @Override
     @SuppressWarnings("cast")
+    public String realmGet$recipientName() {
+        proxyState.getRealm$realm().checkIfValid();
+        return (java.lang.String) proxyState.getRow$realm().getString(columnInfo.recipientNameIndex);
+    }
+
+    @Override
+    public void realmSet$recipientName(String value) {
+        if (proxyState.isUnderConstruction()) {
+            if (!proxyState.getAcceptDefaultValue$realm()) {
+                return;
+            }
+            final Row row = proxyState.getRow$realm();
+            if (value == null) {
+                row.getTable().setNull(columnInfo.recipientNameIndex, row.getIndex(), true);
+                return;
+            }
+            row.getTable().setString(columnInfo.recipientNameIndex, row.getIndex(), value, true);
+            return;
+        }
+
+        proxyState.getRealm$realm().checkIfValid();
+        if (value == null) {
+            proxyState.getRow$realm().setNull(columnInfo.recipientNameIndex);
+            return;
+        }
+        proxyState.getRow$realm().setString(columnInfo.recipientNameIndex, value);
+    }
+
+    @Override
+    @SuppressWarnings("cast")
     public long realmGet$date() {
         proxyState.getRealm$realm().checkIfValid();
         return (long) proxyState.getRow$realm().getLong(columnInfo.dateIndex);
@@ -535,6 +570,7 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
             realmObjectSchema.add("senderName", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
             realmObjectSchema.add("senderId", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
             realmObjectSchema.add("recipientId", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
+            realmObjectSchema.add("recipientName", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
             realmObjectSchema.add("date", RealmFieldType.INTEGER, !Property.PRIMARY_KEY, !Property.INDEXED, Property.REQUIRED);
             realmObjectSchema.add("delivered", RealmFieldType.BOOLEAN, !Property.PRIMARY_KEY, !Property.INDEXED, Property.REQUIRED);
             realmObjectSchema.add("sent", RealmFieldType.BOOLEAN, !Property.PRIMARY_KEY, !Property.INDEXED, Property.REQUIRED);
@@ -554,14 +590,14 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
         }
         Table table = sharedRealm.getTable("class_Call");
         final long columnCount = table.getColumnCount();
-        if (columnCount != 13) {
-            if (columnCount < 13) {
-                throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field count is less than expected - expected 13 but was " + columnCount);
+        if (columnCount != 14) {
+            if (columnCount < 14) {
+                throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field count is less than expected - expected 14 but was " + columnCount);
             }
             if (allowExtraColumns) {
-                RealmLog.debug("Field count is more than expected - expected 13 but was %1$d", columnCount);
+                RealmLog.debug("Field count is more than expected - expected 14 but was %1$d", columnCount);
             } else {
-                throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field count is more than expected - expected 13 but was " + columnCount);
+                throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field count is more than expected - expected 14 but was " + columnCount);
             }
         }
         Map<String, RealmFieldType> columnTypes = new HashMap<String, RealmFieldType>();
@@ -647,6 +683,15 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
         if (!table.isColumnNullable(columnInfo.recipientIdIndex)) {
             throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field 'recipientId' is required. Either set @Required to field 'recipientId' or migrate using RealmObjectSchema.setNullable().");
         }
+        if (!columnTypes.containsKey("recipientName")) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Missing field 'recipientName' in existing Realm file. Either remove field or migrate using io.realm.internal.Table.addColumn().");
+        }
+        if (columnTypes.get("recipientName") != RealmFieldType.STRING) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Invalid type 'String' for field 'recipientName' in existing Realm file.");
+        }
+        if (!table.isColumnNullable(columnInfo.recipientNameIndex)) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Field 'recipientName' is required. Either set @Required to field 'recipientName' or migrate using RealmObjectSchema.setNullable().");
+        }
         if (!columnTypes.containsKey("date")) {
             throw new RealmMigrationNeededException(sharedRealm.getPath(), "Missing field 'date' in existing Realm file. Either remove field or migrate using io.realm.internal.Table.addColumn().");
         }
@@ -692,9 +737,9 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
         if (!sharedRealm.hasTable("class_Attachment")) {
             throw new RealmMigrationNeededException(sharedRealm.getPath(), "Missing class 'class_Attachment' for field 'attachment'");
         }
-        Table table_12 = sharedRealm.getTable("class_Attachment");
-        if (!table.getLinkTarget(columnInfo.attachmentIndex).hasSameSchema(table_12)) {
-            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Invalid RealmObject for field 'attachment': '" + table.getLinkTarget(columnInfo.attachmentIndex).getName() + "' expected - was '" + table_12.getName() + "'");
+        Table table_13 = sharedRealm.getTable("class_Attachment");
+        if (!table.getLinkTarget(columnInfo.attachmentIndex).hasSameSchema(table_13)) {
+            throw new RealmMigrationNeededException(sharedRealm.getPath(), "Invalid RealmObject for field 'attachment': '" + table.getLinkTarget(columnInfo.attachmentIndex).getName() + "' expected - was '" + table_13.getName() + "'");
         }
 
         return columnInfo;
@@ -770,6 +815,13 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
                 ((CallRealmProxyInterface) obj).realmSet$recipientId(null);
             } else {
                 ((CallRealmProxyInterface) obj).realmSet$recipientId((String) json.getString("recipientId"));
+            }
+        }
+        if (json.has("recipientName")) {
+            if (json.isNull("recipientName")) {
+                ((CallRealmProxyInterface) obj).realmSet$recipientName(null);
+            } else {
+                ((CallRealmProxyInterface) obj).realmSet$recipientName((String) json.getString("recipientName"));
             }
         }
         if (json.has("date")) {
@@ -876,6 +928,13 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
                 } else {
                     ((CallRealmProxyInterface) obj).realmSet$recipientId((String) reader.nextString());
                 }
+            } else if (name.equals("recipientName")) {
+                if (reader.peek() == JsonToken.NULL) {
+                    reader.skipValue();
+                    ((CallRealmProxyInterface) obj).realmSet$recipientName(null);
+                } else {
+                    ((CallRealmProxyInterface) obj).realmSet$recipientName((String) reader.nextString());
+                }
             } else if (name.equals("date")) {
                 if (reader.peek() == JsonToken.NULL) {
                     reader.skipValue();
@@ -953,6 +1012,7 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
             ((CallRealmProxyInterface) realmObject).realmSet$senderName(((CallRealmProxyInterface) newObject).realmGet$senderName());
             ((CallRealmProxyInterface) realmObject).realmSet$senderId(((CallRealmProxyInterface) newObject).realmGet$senderId());
             ((CallRealmProxyInterface) realmObject).realmSet$recipientId(((CallRealmProxyInterface) newObject).realmGet$recipientId());
+            ((CallRealmProxyInterface) realmObject).realmSet$recipientName(((CallRealmProxyInterface) newObject).realmGet$recipientName());
             ((CallRealmProxyInterface) realmObject).realmSet$date(((CallRealmProxyInterface) newObject).realmGet$date());
             ((CallRealmProxyInterface) realmObject).realmSet$delivered(((CallRealmProxyInterface) newObject).realmGet$delivered());
             ((CallRealmProxyInterface) realmObject).realmSet$sent(((CallRealmProxyInterface) newObject).realmGet$sent());
@@ -1013,6 +1073,10 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
         String realmGet$recipientId = ((CallRealmProxyInterface)object).realmGet$recipientId();
         if (realmGet$recipientId != null) {
             Table.nativeSetString(tableNativePtr, columnInfo.recipientIdIndex, rowIndex, realmGet$recipientId, false);
+        }
+        String realmGet$recipientName = ((CallRealmProxyInterface)object).realmGet$recipientName();
+        if (realmGet$recipientName != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.recipientNameIndex, rowIndex, realmGet$recipientName, false);
         }
         Table.nativeSetLong(tableNativePtr, columnInfo.dateIndex, rowIndex, ((CallRealmProxyInterface)object).realmGet$date(), false);
         Table.nativeSetBoolean(tableNativePtr, columnInfo.deliveredIndex, rowIndex, ((CallRealmProxyInterface)object).realmGet$delivered(), false);
@@ -1075,6 +1139,10 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
                 String realmGet$recipientId = ((CallRealmProxyInterface)object).realmGet$recipientId();
                 if (realmGet$recipientId != null) {
                     Table.nativeSetString(tableNativePtr, columnInfo.recipientIdIndex, rowIndex, realmGet$recipientId, false);
+                }
+                String realmGet$recipientName = ((CallRealmProxyInterface)object).realmGet$recipientName();
+                if (realmGet$recipientName != null) {
+                    Table.nativeSetString(tableNativePtr, columnInfo.recipientNameIndex, rowIndex, realmGet$recipientName, false);
                 }
                 Table.nativeSetLong(tableNativePtr, columnInfo.dateIndex, rowIndex, ((CallRealmProxyInterface)object).realmGet$date(), false);
                 Table.nativeSetBoolean(tableNativePtr, columnInfo.deliveredIndex, rowIndex, ((CallRealmProxyInterface)object).realmGet$delivered(), false);
@@ -1149,6 +1217,12 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
             Table.nativeSetString(tableNativePtr, columnInfo.recipientIdIndex, rowIndex, realmGet$recipientId, false);
         } else {
             Table.nativeSetNull(tableNativePtr, columnInfo.recipientIdIndex, rowIndex, false);
+        }
+        String realmGet$recipientName = ((CallRealmProxyInterface)object).realmGet$recipientName();
+        if (realmGet$recipientName != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.recipientNameIndex, rowIndex, realmGet$recipientName, false);
+        } else {
+            Table.nativeSetNull(tableNativePtr, columnInfo.recipientNameIndex, rowIndex, false);
         }
         Table.nativeSetLong(tableNativePtr, columnInfo.dateIndex, rowIndex, ((CallRealmProxyInterface)object).realmGet$date(), false);
         Table.nativeSetBoolean(tableNativePtr, columnInfo.deliveredIndex, rowIndex, ((CallRealmProxyInterface)object).realmGet$delivered(), false);
@@ -1230,6 +1304,12 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
                 } else {
                     Table.nativeSetNull(tableNativePtr, columnInfo.recipientIdIndex, rowIndex, false);
                 }
+                String realmGet$recipientName = ((CallRealmProxyInterface)object).realmGet$recipientName();
+                if (realmGet$recipientName != null) {
+                    Table.nativeSetString(tableNativePtr, columnInfo.recipientNameIndex, rowIndex, realmGet$recipientName, false);
+                } else {
+                    Table.nativeSetNull(tableNativePtr, columnInfo.recipientNameIndex, rowIndex, false);
+                }
                 Table.nativeSetLong(tableNativePtr, columnInfo.dateIndex, rowIndex, ((CallRealmProxyInterface)object).realmGet$date(), false);
                 Table.nativeSetBoolean(tableNativePtr, columnInfo.deliveredIndex, rowIndex, ((CallRealmProxyInterface)object).realmGet$delivered(), false);
                 Table.nativeSetBoolean(tableNativePtr, columnInfo.sentIndex, rowIndex, ((CallRealmProxyInterface)object).realmGet$sent(), false);
@@ -1275,6 +1355,7 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
         ((CallRealmProxyInterface) unmanagedObject).realmSet$senderName(((CallRealmProxyInterface) realmObject).realmGet$senderName());
         ((CallRealmProxyInterface) unmanagedObject).realmSet$senderId(((CallRealmProxyInterface) realmObject).realmGet$senderId());
         ((CallRealmProxyInterface) unmanagedObject).realmSet$recipientId(((CallRealmProxyInterface) realmObject).realmGet$recipientId());
+        ((CallRealmProxyInterface) unmanagedObject).realmSet$recipientName(((CallRealmProxyInterface) realmObject).realmGet$recipientName());
         ((CallRealmProxyInterface) unmanagedObject).realmSet$date(((CallRealmProxyInterface) realmObject).realmGet$date());
         ((CallRealmProxyInterface) unmanagedObject).realmSet$delivered(((CallRealmProxyInterface) realmObject).realmGet$delivered());
         ((CallRealmProxyInterface) unmanagedObject).realmSet$sent(((CallRealmProxyInterface) realmObject).realmGet$sent());
@@ -1322,6 +1403,10 @@ public class CallRealmProxy extends com.verbosetech.yoohoo.models.Call
         stringBuilder.append(",");
         stringBuilder.append("{recipientId:");
         stringBuilder.append(realmGet$recipientId() != null ? realmGet$recipientId() : "null");
+        stringBuilder.append("}");
+        stringBuilder.append(",");
+        stringBuilder.append("{recipientName:");
+        stringBuilder.append(realmGet$recipientName() != null ? realmGet$recipientName() : "null");
         stringBuilder.append("}");
         stringBuilder.append(",");
         stringBuilder.append("{date:");

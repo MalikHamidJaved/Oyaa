@@ -13,11 +13,11 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "63",
+                        "startLines": "64",
                         "startColumns": "4",
-                        "startOffsets": "7510",
+                        "startOffsets": "7612",
                         "endColumns": "100",
-                        "endOffsets": "7606"
+                        "endOffsets": "7708"
                     }
                 },
                 {
@@ -30,11 +30,11 @@
                         "endOffsets": "214,323,434,524,629,754,836,918,1002,1115,1223,1322,1433,1535,1652,1818,1919,2001"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,62",
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,63",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,219,328,439,529,634,759,841,923,1007,1120,1228,1327,1438,1540,1657,1823,7428",
+                        "startOffsets": "105,219,328,439,529,634,759,841,923,1007,1120,1228,1327,1438,1540,1657,1823,7530",
                         "endColumns": "113,108,110,89,104,124,81,81,83,112,107,98,110,101,116,165,100,81",
-                        "endOffsets": "214,323,434,524,629,754,836,918,1002,1115,1223,1322,1433,1535,1652,1818,1919,7505"
+                        "endOffsets": "214,323,434,524,629,754,836,918,1002,1115,1223,1322,1433,1535,1652,1818,1919,7607"
                     }
                 },
                 {
@@ -89,6 +89,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Malik Hamid\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-gcm-15.0.0.aar\\c5d21c1c1a07c196cd87163cc2b15926\\res\\values-te\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "190",
+                        "endColumns": "97",
+                        "endOffsets": "287"
+                    },
+                    "to": {
+                        "startLines": "60",
+                        "startColumns": "4",
+                        "startOffsets": "7218",
+                        "endColumns": "101",
+                        "endOffsets": "7315"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Malik Hamid\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-15.0.0.aar\\c1caf287bc658559800bc1d3be3e4cf0\\res\\values-te\\values.xml",
                     "from": {
                         "startLines": "4,5",
@@ -98,11 +115,11 @@
                         "endOffsets": "299,394"
                     },
                     "to": {
-                        "startLines": "60,61",
+                        "startLines": "61,62",
                         "startColumns": "4,4",
-                        "startOffsets": "7218,7329",
+                        "startOffsets": "7320,7431",
                         "endColumns": "110,98",
-                        "endOffsets": "7324,7423"
+                        "endOffsets": "7426,7525"
                     }
                 }
             ]

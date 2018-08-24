@@ -1,3 +1,3 @@
-# Referenced at C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:45
+# Referenced at C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:51
 -keep class com.verbosetech.yoohoo.BaseApplication { <init>(...); }
 

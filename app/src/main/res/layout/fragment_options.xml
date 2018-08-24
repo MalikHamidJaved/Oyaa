@@ -169,6 +169,19 @@
                     android:textSize="16sp" />
 
                 <TextView
+                    android:id="@+id/tv_block"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:drawableLeft="@drawable/ic_assignment_dark_24dp"
+                    android:drawablePadding="16dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:text="Block People"
+                    android:textColor="@color/textColor4"
+                    android:textSize="16sp" />
+
+                <TextView
                     android:id="@+id/contact"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

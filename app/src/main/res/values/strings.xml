@@ -70,5 +70,6 @@ Neque aliquam vestibulum morbi blandit. Molestie nunc non blandit massa enim nec
     <string name="blocked_list">Blocked List</string>
     <string name="terms_and_privacy">Terms and Privacy</string>
     <string name="nearby">Nearby</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve"        translatable="false">AIzaSyCLpFOWlJR5lwIqUeQi97B-L0f8Cam5N3E</string>
 
 </resources>

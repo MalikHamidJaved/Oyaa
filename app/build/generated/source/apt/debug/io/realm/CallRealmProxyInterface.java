@@ -18,6 +18,8 @@ public interface CallRealmProxyInterface {
     public void realmSet$senderId(String value);
     public String realmGet$recipientId();
     public void realmSet$recipientId(String value);
+    public String realmGet$recipientName();
+    public void realmSet$recipientName(String value);
     public long realmGet$date();
     public void realmSet$date(long value);
     public boolean realmGet$delivered();

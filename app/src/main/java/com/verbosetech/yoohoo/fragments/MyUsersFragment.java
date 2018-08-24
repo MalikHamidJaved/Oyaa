@@ -125,6 +125,7 @@ public class MyUsersFragment extends Fragment {
         recyclerView.setAdapter(chatAdapter);
 
         resultList.addChangeListener(chatListChangeListener);
+        setUserNamesAsInPhone();
     }
 
     @Override

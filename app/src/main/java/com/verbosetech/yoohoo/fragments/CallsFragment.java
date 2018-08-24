@@ -2,6 +2,7 @@ package com.verbosetech.yoohoo.fragments;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -18,17 +19,22 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.verbosetech.yoohoo.R;
+import com.verbosetech.yoohoo.activities.CallScreenActivity;
 import com.verbosetech.yoohoo.activities.MainActivity;
 import com.verbosetech.yoohoo.adapters.CallHistoryAdapter;
 import com.verbosetech.yoohoo.interfaces.HomeIneractor;
 import com.verbosetech.yoohoo.interfaces.OnCallHistoryItemCleckListener;
 import com.verbosetech.yoohoo.models.Call;
 import com.verbosetech.yoohoo.models.Chat;
+import com.verbosetech.yoohoo.models.Contact;
 import com.verbosetech.yoohoo.models.User;
+import com.verbosetech.yoohoo.services.SinchService;
 import com.verbosetech.yoohoo.utils.Helper;
 import com.verbosetech.yoohoo.views.MyRecyclerView;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 import io.realm.Realm;
@@ -100,6 +106,7 @@ public class CallsFragment extends Fragment implements OnCallHistoryItemCleckLis
 
 //        userMe = homeInteractor.getUserMe();
         Realm.init(getContext());
+        helper = new Helper(getContext());
         rChatDb =  FirebaseDatabase.getInstance().getReference();
 
         rChatDb.child("calls").addValueEventListener(new ValueEventListener() {
@@ -110,12 +117,14 @@ public class CallsFragment extends Fragment implements OnCallHistoryItemCleckLis
                 {
 
                     Call note = noteDataSnapshot.getValue(Call.class);
+                    if(getActivity() == null )
+                        break;
                     String userId = ((MainActivity)getActivity()).getUserMe().getId();
                     if(note.getSenderId().equals(userId) || note.getRecipientId().equals(userId))
                     chatDataList.add(note);
                 }
 
-
+                Collections.reverse(chatDataList);
                 callHistoryAdapter.setChecklists(chatDataList);
 
             }
@@ -127,6 +136,7 @@ public class CallsFragment extends Fragment implements OnCallHistoryItemCleckLis
 
         });
     }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -157,4 +167,47 @@ public class CallsFragment extends Fragment implements OnCallHistoryItemCleckLis
     public void onCallHistoryItemClickListerner(int idx) {
 
     }
+
+    @Override
+    public void onCallHistoryItemCallClickListerner(int idx, boolean isVideo) {
+        Call call = callHistoryAdapter.getItem(idx);
+        if(isVideo)
+            onVideoCallclick(call);
+        else
+            onVoiceCallclick(call);
+
+
+    }
+
+
+    public void onVoiceCallclick(Call object){
+        com.sinch.android.rtc.calling.Call call = ((MainActivity)getActivity()).getSinchServiceInterface().callUser((userMe.getId()==object.getRecipientId()?object.getSenderId():object.getRecipientId()), null);
+        String callId = call.getCallId();
+
+        Intent callScreen = new Intent(getContext(), CallScreenActivity.class);
+        callScreen.putExtra(SinchService.CALL_ID, callId);
+        callScreen.putExtra("name", (userMe.getId()==object.getRecipientId()?object.getSenderName():object.getRecipientName()));
+//                onCheckAudioVideoButton.OnAudioVideoClick(false);
+        if (object.getImage() != null) {
+            callScreen.putExtra("image", object.getImage());
+        }
+        callScreen.putExtra("video", false);
+        startActivity(callScreen);
+    }
+
+    public void onVideoCallclick(Call object){
+        com.sinch.android.rtc.calling.Call call = ((MainActivity)getActivity()).getSinchServiceInterface().callUser((userMe.getId()==object.getRecipientId()?object.getSenderId():object.getRecipientId()), null);
+        String callId = call.getCallId();
+
+        Intent callScreen = new Intent(getContext(), CallScreenActivity.class);
+        callScreen.putExtra(SinchService.CALL_ID, callId);
+        callScreen.putExtra("name", (userMe.getId()==object.getRecipientId()?object.getSenderName():object.getRecipientName()));
+//                onCheckAudioVideoButton.OnAudioVideoClick(false);
+        if (object.getImage() != null) {
+            callScreen.putExtra("image", object.getImage());
+        }
+        callScreen.putExtra("video", true);
+        startActivity(callScreen);
+    }
+
 }

@@ -16,7 +16,7 @@ import java.lang.Override;
 public class MessageAttachmentVideoViewHolder_ViewBinding extends BaseMessageViewHolder_ViewBinding {
   private MessageAttachmentVideoViewHolder target;
 
-  private View view2131231208;
+  private View view2131231219;
 
   @UiThread
   public MessageAttachmentVideoViewHolder_ViewBinding(final MessageAttachmentVideoViewHolder target,
@@ -31,7 +31,7 @@ public class MessageAttachmentVideoViewHolder_ViewBinding extends BaseMessageVie
     target.videoThumbnail = Utils.findRequiredViewAsType(source, R.id.videoThumbnail, "field 'videoThumbnail'", ImageView.class);
     view = Utils.findRequiredView(source, R.id.videoPlay, "field 'videoPlay' and method 'downloadFile'");
     target.videoPlay = Utils.castView(view, R.id.videoPlay, "field 'videoPlay'", ImageView.class);
-    view2131231208 = view;
+    view2131231219 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -55,8 +55,8 @@ public class MessageAttachmentVideoViewHolder_ViewBinding extends BaseMessageVie
     target.ll = null;
     target.progressBar = null;
 
-    view2131231208.setOnClickListener(null);
-    view2131231208 = null;
+    view2131231219.setOnClickListener(null);
+    view2131231219 = null;
 
     super.unbind();
   }

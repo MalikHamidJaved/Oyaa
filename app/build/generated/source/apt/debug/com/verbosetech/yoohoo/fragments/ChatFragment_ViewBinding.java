@@ -25,29 +25,29 @@ import java.lang.Override;
 public class ChatFragment_ViewBinding implements Unbinder {
   private ChatFragment target;
 
-  private View view2131230807;
+  private View view2131230809;
 
-  private View view2131230993;
+  private View view2131230998;
 
-  private View view2131230758;
+  private View view2131230759;
 
-  private View view2131231104;
-
-  private View view2131230771;
-
-  private View view2131230777;
-
-  private View view2131230934;
-
-  private View view2131230769;
-
-  private View view2131230772;
-
-  private View view2131230768;
+  private View view2131231110;
 
   private View view2131230773;
 
+  private View view2131230779;
+
+  private View view2131230937;
+
+  private View view2131230771;
+
+  private View view2131230774;
+
   private View view2131230770;
+
+  private View view2131230775;
+
+  private View view2131230772;
 
   @UiThread
   @SuppressLint("ClickableViewAccessibility")
@@ -58,7 +58,7 @@ public class ChatFragment_ViewBinding implements Unbinder {
     target.toolbar = Utils.findRequiredViewAsType(source, R.id.chatToolbar, "field 'toolbar'", Toolbar.class);
     view = Utils.findRequiredView(source, R.id.chatToolbarContent, "field 'toolbarContent' and method 'onViewClicked'");
     target.toolbarContent = Utils.castView(view, R.id.chatToolbarContent, "field 'toolbarContent'", RelativeLayout.class);
-    view2131230807 = view;
+    view2131230809 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -73,7 +73,7 @@ public class ChatFragment_ViewBinding implements Unbinder {
     target.recyclerView = Utils.findRequiredViewAsType(source, R.id.recycler_view, "field 'recyclerView'", RecyclerView.class);
     view = Utils.findRequiredView(source, R.id.new_message, "field 'newMessage' and method 'onNewMessageTouched'");
     target.newMessage = Utils.castView(view, R.id.new_message, "field 'newMessage'", EmojiEditText.class);
-    view2131230993 = view;
+    view2131230998 = view;
     view.setOnTouchListener(new View.OnTouchListener() {
       @Override
       public boolean onTouch(View p0, MotionEvent p1) {
@@ -82,7 +82,7 @@ public class ChatFragment_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.add_attachment, "field 'addAttachment' and method 'onViewClicked'");
     target.addAttachment = Utils.castView(view, R.id.add_attachment, "field 'addAttachment'", ImageView.class);
-    view2131230758 = view;
+    view2131230759 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -91,7 +91,7 @@ public class ChatFragment_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.send, "field 'sendMessage' and method 'onViewClicked'");
     target.sendMessage = Utils.castView(view, R.id.send, "field 'sendMessage'", ImageView.class);
-    view2131231104 = view;
+    view2131231110 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -102,54 +102,6 @@ public class ChatFragment_ViewBinding implements Unbinder {
     target.rootView = Utils.findRequiredViewAsType(source, R.id.rootView, "field 'rootView'", LinearLayout.class);
     view = Utils.findRequiredView(source, R.id.attachment_emoji, "field 'attachment_emoji' and method 'onAttachmentClicked'");
     target.attachment_emoji = Utils.castView(view, R.id.attachment_emoji, "field 'attachment_emoji'", ImageView.class);
-    view2131230771 = view;
-    view.setOnClickListener(new DebouncingOnClickListener() {
-      @Override
-      public void doClick(View p0) {
-        target.onAttachmentClicked(p0);
-      }
-    });
-    view = Utils.findRequiredView(source, R.id.back_button, "method 'onViewClicked'");
-    view2131230777 = view;
-    view.setOnClickListener(new DebouncingOnClickListener() {
-      @Override
-      public void doClick(View p0) {
-        target.onViewClicked(p0);
-      }
-    });
-    view = Utils.findRequiredView(source, R.id.iv_call, "method 'onViewClicked'");
-    view2131230934 = view;
-    view.setOnClickListener(new DebouncingOnClickListener() {
-      @Override
-      public void doClick(View p0) {
-        target.onViewClicked(p0);
-      }
-    });
-    view = Utils.findRequiredView(source, R.id.attachment_contact, "method 'onAttachmentClicked'");
-    view2131230769 = view;
-    view.setOnClickListener(new DebouncingOnClickListener() {
-      @Override
-      public void doClick(View p0) {
-        target.onAttachmentClicked(p0);
-      }
-    });
-    view = Utils.findRequiredView(source, R.id.attachment_gallery, "method 'onAttachmentClicked'");
-    view2131230772 = view;
-    view.setOnClickListener(new DebouncingOnClickListener() {
-      @Override
-      public void doClick(View p0) {
-        target.onAttachmentClicked(p0);
-      }
-    });
-    view = Utils.findRequiredView(source, R.id.attachment_audio, "method 'onAttachmentClicked'");
-    view2131230768 = view;
-    view.setOnClickListener(new DebouncingOnClickListener() {
-      @Override
-      public void doClick(View p0) {
-        target.onAttachmentClicked(p0);
-      }
-    });
-    view = Utils.findRequiredView(source, R.id.attachment_location, "method 'onAttachmentClicked'");
     view2131230773 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
@@ -157,8 +109,56 @@ public class ChatFragment_ViewBinding implements Unbinder {
         target.onAttachmentClicked(p0);
       }
     });
-    view = Utils.findRequiredView(source, R.id.attachment_document, "method 'onAttachmentClicked'");
+    view = Utils.findRequiredView(source, R.id.back_button, "method 'onViewClicked'");
+    view2131230779 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.iv_call, "method 'onViewClicked'");
+    view2131230937 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.attachment_contact, "method 'onAttachmentClicked'");
+    view2131230771 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onAttachmentClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.attachment_gallery, "method 'onAttachmentClicked'");
+    view2131230774 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onAttachmentClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.attachment_audio, "method 'onAttachmentClicked'");
     view2131230770 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onAttachmentClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.attachment_location, "method 'onAttachmentClicked'");
+    view2131230775 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onAttachmentClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.attachment_document, "method 'onAttachmentClicked'");
+    view2131230772 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -189,29 +189,29 @@ public class ChatFragment_ViewBinding implements Unbinder {
     target.rootView = null;
     target.attachment_emoji = null;
 
-    view2131230807.setOnClickListener(null);
-    view2131230807 = null;
-    view2131230993.setOnTouchListener(null);
-    view2131230993 = null;
-    view2131230758.setOnClickListener(null);
-    view2131230758 = null;
-    view2131231104.setOnClickListener(null);
-    view2131231104 = null;
-    view2131230771.setOnClickListener(null);
-    view2131230771 = null;
-    view2131230777.setOnClickListener(null);
-    view2131230777 = null;
-    view2131230934.setOnClickListener(null);
-    view2131230934 = null;
-    view2131230769.setOnClickListener(null);
-    view2131230769 = null;
-    view2131230772.setOnClickListener(null);
-    view2131230772 = null;
-    view2131230768.setOnClickListener(null);
-    view2131230768 = null;
+    view2131230809.setOnClickListener(null);
+    view2131230809 = null;
+    view2131230998.setOnTouchListener(null);
+    view2131230998 = null;
+    view2131230759.setOnClickListener(null);
+    view2131230759 = null;
+    view2131231110.setOnClickListener(null);
+    view2131231110 = null;
     view2131230773.setOnClickListener(null);
     view2131230773 = null;
+    view2131230779.setOnClickListener(null);
+    view2131230779 = null;
+    view2131230937.setOnClickListener(null);
+    view2131230937 = null;
+    view2131230771.setOnClickListener(null);
+    view2131230771 = null;
+    view2131230774.setOnClickListener(null);
+    view2131230774 = null;
     view2131230770.setOnClickListener(null);
     view2131230770 = null;
+    view2131230775.setOnClickListener(null);
+    view2131230775 = null;
+    view2131230772.setOnClickListener(null);
+    view2131230772 = null;
   }
 }

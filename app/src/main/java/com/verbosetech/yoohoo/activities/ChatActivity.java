@@ -878,6 +878,9 @@ public class ChatActivity extends BaseActivity implements OnMessageItemClick, Me
                     callScreen_video.putExtra(SinchService.CALL_ID, callId_video);
                     callScreen_video.putExtra("name", user.getNameInPhone());
                     callScreen_video.putExtra("video", true);
+                if (user.getImage() != null) {
+                    callScreen_video.putExtra("image", user.getImage());
+                }
 //                onCheckAudioVideoButton.OnAudioVideoClick(true);
                     startActivity(callScreen_video);
 //                } else {
@@ -1015,14 +1018,16 @@ public class ChatActivity extends BaseActivity implements OnMessageItemClick, Me
     }
 
     private void openPlacePicker() {
-        PlacePicker.IntentBuilder builder = new PlacePicker.IntentBuilder();
-        try {
-            startActivityForResult(builder.build(this), REQUEST_PLACE_PICKER);
-        } catch (GooglePlayServicesRepairableException | GooglePlayServicesNotAvailableException e) {
-            GoogleApiAvailability googleApiAvailability = GoogleApiAvailability.getInstance();
-            googleApiAvailability.showErrorDialogFragment(this, googleApiAvailability.isGooglePlayServicesAvailable(this), REQUEST_CODE_PLAY_SERVICES);
-            e.printStackTrace();
-        }
+//        PlacePicker.IntentBuilder builder = new PlacePicker.IntentBuilder();
+//        try {
+//            startActivityForResult(builder.build(this), REQUEST_PLACE_PICKER);
+//        } catch (GooglePlayServicesRepairableException | GooglePlayServicesNotAvailableException e) {
+//            GoogleApiAvailability googleApiAvailability = GoogleApiAvailability.getInstance();
+//            googleApiAvailability.showErrorDialogFragment(this, googleApiAvailability.isGooglePlayServicesAvailable(this), REQUEST_CODE_PLAY_SERVICES);
+//            e.printStackTrace();
+//        }
+        Intent intent = new Intent(getApplication(), MapsFregment.class);
+        this.startActivityForResult(intent, REQUEST_PLACE_PICKER);
     }
 
     @NeedsPermission({Manifest.permission.READ_CONTACTS, Manifest.permission.WRITE_EXTERNAL_STORAGE,
@@ -1186,12 +1191,14 @@ public class ChatActivity extends BaseActivity implements OnMessageItemClick, Me
                     getSendVCard(data.getData());
                     break;
                 case REQUEST_PLACE_PICKER:
-                    Place place = PlacePicker.getPlace(this, data);
+//                    Place place = PlacePicker.getPlace(this, data);
                     JSONObject jsonObject = new JSONObject();
                     try {
-                        jsonObject.put("address", place.getAddress().toString());
-                        jsonObject.put("latitude", place.getLatLng().latitude);
-                        jsonObject.put("longitude", place.getLatLng().longitude);
+                        if(MapsFregment.lat == 0)
+                            return;
+                        jsonObject.put("address",MapsFregment.address.toString());
+                        jsonObject.put("latitude", MapsFregment.lat);
+                        jsonObject.put("longitude", MapsFregment.lng);
                         Attachment attachment = new Attachment();
                         attachment.setData(jsonObject.toString());
                         sendMessage(null, AttachmentTypes.LOCATION, attachment);

@@ -9,6 +9,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.RequestOptions;
 import com.verbosetech.yoohoo.R;
 import com.verbosetech.yoohoo.activities.MainActivity;
 import com.verbosetech.yoohoo.interfaces.OnCallHistoryItemCleckListener;
@@ -22,6 +24,7 @@ import java.time.format.DateTimeFormatter;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import de.hdodenhof.circleimageview.CircleImageView;
 
 public class CallHistoryItemViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
@@ -32,6 +35,8 @@ public class CallHistoryItemViewHolder extends RecyclerView.ViewHolder implement
     TextView tvName;
     @BindView(R.id.tv_time_date)
     TextView tvChecklist;
+    @BindView(R.id.userImage)
+    CircleImageView ivProfile;
     @BindView(R.id.iv_answer)
     ImageView ivAnswer;
     @BindView(R.id.iv_call_type)
@@ -53,19 +58,24 @@ public class CallHistoryItemViewHolder extends RecyclerView.ViewHolder implement
         context = view.getContext();
         this.typeBasedItems = typeBasedItems;
         this.onAppointmentItemClickListener = new WeakReference<>(onChecklistItemCleckListener);
-
+        ivCallType.setOnClickListener(this);
     }
 
     public void setData(Call checklist, int idx) {
 
         object = checklist;
         this.idx = idx;
+        RequestOptions requestOptions = new RequestOptions();
+        requestOptions.placeholder(R.drawable.yoohoo_placeholder);
+
+        Glide.with(context).load(object.getImage()).apply(requestOptions).into(ivProfile);
+
 
         if(object.getSenderId().equals(((MainActivity)context).getUserMe().getId())){
-            tvName.setText(object.getRecipientId());
+            tvName.setText(object.getRecipientName());
             ivAnswer.setRotation(90);
         }else {
-            tvName.setText(object.getSenderId());
+            tvName.setText(object.getSenderName());
         }
 
         if(object.getDuration()!=null)
@@ -95,7 +105,16 @@ public class CallHistoryItemViewHolder extends RecyclerView.ViewHolder implement
         if (onAppointmentItemClickListener == null || onAppointmentItemClickListener.get() == null) {
             return;
         }
-        onAppointmentItemClickListener.get().onCallHistoryItemClickListerner(idx);
+        switch (view.getId()){
+            case R.id.iv_call_type:
+                onAppointmentItemClickListener.get().onCallHistoryItemCallClickListerner(idx,!object.isDelivered());
+                break;
+
+                default:
+                    onAppointmentItemClickListener.get().onCallHistoryItemClickListerner(idx);
+                    break;
+        }
+
 
     }
 }

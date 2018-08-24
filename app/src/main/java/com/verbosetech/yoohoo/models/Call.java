@@ -17,7 +17,7 @@ public class Call extends RealmObject implements Parcelable {
 
     String duration;
 
-    private String body, senderName, senderId, recipientId;
+    private String body, senderName, senderId, recipientId,recipientName;
     private long date;
     private boolean delivered = false, sent = false;
     private
@@ -27,6 +27,14 @@ public class Call extends RealmObject implements Parcelable {
 
     @Ignore
     private boolean selected;
+
+    public String getRecipientName() {
+        return recipientName;
+    }
+
+    public void setRecipientName(String recipientName) {
+        this.recipientName = recipientName;
+    }
 
     public String getImage() {
         return image;

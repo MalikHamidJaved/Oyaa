@@ -143,7 +143,7 @@ public abstract class BaseActivity extends AppCompatActivity implements ServiceC
         // for subclasses
     }
 
-    protected SinchService.SinchServiceInterface getSinchServiceInterface() {
+    public SinchService.SinchServiceInterface getSinchServiceInterface() {
         return mSinchServiceInterface;
     }
 

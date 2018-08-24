@@ -1,13 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-120:12
-INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-120:12
-INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-120:12
-INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-120:12
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-132:12
 MERGED from [io.realm:realm-android-library:3.1.4] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\realm-android-library-3.1.4.aar\7d9d5179f973163edc17b8af65c75660\AndroidManifest.xml:2:1-11:12
 MERGED from [com.jakewharton.hugo:hugo-runtime:1.2.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\hugo-runtime-1.2.1.aar\d95d7d42d1a47ebf5dbf21baaf97355a\AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.hotchemi:permissionsdispatcher:2.4.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\permissionsdispatcher-2.4.0.aar\93532c66f171bdec61e68af7030ed942\AndroidManifest.xml:2:1-10:12
 MERGED from [com.android.support:multidex:1.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\8e9b76d8c4a7e884345eb4240e642a7d\AndroidManifest.xml:17:1-22:12
+MERGED from [:sinch-android-rtc:3.12.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.3.aar\35249796217904c7b661e0f7d4f95ec4\AndroidManifest.xml:2:1-19:12
+MERGED from [com.github.hotchemi:permissionsdispatcher:2.4.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\permissionsdispatcher-2.4.0.aar\93532c66f171bdec61e68af7030ed942\AndroidManifest.xml:2:1-10:12
 MERGED from [:countrypicker] C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\countrypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\5e217ad22b4da4576423b6798138f3a7\AndroidManifest.xml:17:1-31:12
 MERGED from [com.github.esafirm.android-image-picker:imagepicker:1.9.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\imagepicker-1.9.0.aar\c13bafba3be3e4a35da727b25e7a1ee1\AndroidManifest.xml:2:1-32:12
@@ -26,6 +27,10 @@ MERGED from [com.google.firebase:firebase-storage:15.0.0] C:\Users\Malik Hamid\.
 MERGED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-auth-15.0.0.aar\4cfc5fced2e33ae295a5f113f18558f6\AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.firebase:firebase-core:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-core-15.0.0.aar\b95d518d30d1b971ef3729a65760aa90\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-places:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-places-15.0.0.aar\c1caf287bc658559800bc1d3be3e4cf0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\1a0fd33370775e13c1e2849352fd72d5\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.4.4.aar\7405c2ee373db0bb8080afe2701c4962\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.0.aar\c5d21c1c1a07c196cd87163cc2b15926\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.0.aar\617211f43cfe28f33b3cfa121d0c7b48\AndroidManifest.xml:2:1-9:12
 MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\com.amulyakhare.textdrawable-1.0.1.aar\f31bc2712d7b7f081ebef9cdaeddf806\AndroidManifest.xml:2:1-14:12
 MERGED from [com.jakewharton:butterknife:8.8.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.0.aar\fa862fa7b59c7acda812054882659e25\AndroidManifest.xml:2:1-7:12
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\4928f7e155bba5fcdbf17ef88aca9538\AndroidManifest.xml:2:1-11:12
@@ -42,7 +47,7 @@ MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Malik 
 MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.1.0.aar\376c099edfce4bd6678e992d5a912608\AndroidManifest.xml:17:1-65:12
 MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-common-15.0.1.aar\5ffd0d3c1a6cdb390333976fbe9de1ab\AndroidManifest.xml:2:1-15:12
 MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\b4272544320bb52b317f05cc40761c79\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\eda1a106bb4b4c79f65e879a0aafb40a\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.0.aar\e698abb86f33b70ab72da2086668abb3\AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-15.0.0.aar\14a2bce431d9bb8f7ae4d8964168ea34\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\ab6977e1f087e9cb3f7446cc1904aa59\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\611b8dd35e8fd671a30d772ceac973e0\AndroidManifest.xml:2:1-9:12
@@ -54,7 +59,6 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\User
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\14e38bb80d38f6e79269ebf4e3ad3bc6\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\b33ac687c912d3730e6505f792a4ef82\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\0998b271cbe45cf0e40e097270b01022\AndroidManifest.xml:2:1-11:12
-MERGED from [:sinch-android-rtc:3.12.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.3.aar\35249796217904c7b661e0f7d4f95ec4\AndroidManifest.xml:2:1-19:12
 MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\9a866ea01c1bc01209c19fb6b207db38\AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\afb440d862ab1f7cbd23f89d4d7b6296\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\c1e6cbf3a8470e8f6b7665e3e21b9a22\AndroidManifest.xml:17:1-22:12
@@ -67,22 +71,22 @@ MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Malik Hamid\.g
 MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\6aaed961f938ea57470bf817dc6b5b61\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.2.aar\ca46f72b3396ca7b4ca9cea0cde5d477\AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\9e6b3cf1c9472643713292710509d09c\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-120:12
-INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-120:12
-INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-120:12
+INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-132:12
 	package
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:4:5-37
 		INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-120:12
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-132:12
 		INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-120:12
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:1-132:12
 		INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:2:11-69
@@ -92,6 +96,14 @@ ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidM
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:8:9-33
 	android:name
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:7:9-51
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:11:22-76
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
 ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:12:5-80
 	android:name
@@ -126,14 +138,18 @@ ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidM
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:19:22-66
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:20:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\1a0fd33370775e13c1e2849352fd72d5\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\1a0fd33370775e13c1e2849352fd72d5\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.0.aar\c5d21c1c1a07c196cd87163cc2b15926\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.0.aar\c5d21c1c1a07c196cd87163cc2b15926\AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-analytics-15.0.2.aar\e953e16d4c43e3547f030a4e18ecc4f0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-analytics-15.0.2.aar\e953e16d4c43e3547f030a4e18ecc4f0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-15.0.2.aar\50252a30f1117a20da0f3cc4d6483857\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-15.0.2.aar\50252a30f1117a20da0f3cc4d6483857\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.1.0.aar\376c099edfce4bd6678e992d5a912608\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.1.0.aar\376c099edfce4bd6678e992d5a912608\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\eda1a106bb4b4c79f65e879a0aafb40a\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\eda1a106bb4b4c79f65e879a0aafb40a\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.0.aar\e698abb86f33b70ab72da2086668abb3\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.0.aar\e698abb86f33b70ab72da2086668abb3\AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:20:22-64
 uses-permission#android.permission.CAMERA
@@ -144,14 +160,14 @@ MERGED from [com.github.esafirm.android-image-picker:imagepicker:1.9.0] C:\Users
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:21:22-62
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\1a0fd33370775e13c1e2849352fd72d5\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\1a0fd33370775e13c1e2849352fd72d5\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-analytics-15.0.2.aar\e953e16d4c43e3547f030a4e18ecc4f0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-analytics-15.0.2.aar\e953e16d4c43e3547f030a4e18ecc4f0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-15.0.2.aar\50252a30f1117a20da0f3cc4d6483857\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-15.0.2.aar\50252a30f1117a20da0f3cc4d6483857\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.1.0.aar\376c099edfce4bd6678e992d5a912608\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.1.0.aar\376c099edfce4bd6678e992d5a912608\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\eda1a106bb4b4c79f65e879a0aafb40a\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\eda1a106bb4b4c79f65e879a0aafb40a\AndroidManifest.xml:23:5-79
 	android:name
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:22:22-76
 uses-permission#android.permission.RECORD_AUDIO
@@ -162,10 +178,22 @@ uses-permission#android.permission.VIBRATE
 ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:24:5-66
 	android:name
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:24:22-63
+uses-feature#android.hardware.location.gps
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:26:19-63
+permission#in.wptrafficanalyzer.locationdistancetimemapv2.permission.MAPS_RECEIVE
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:29:9-94
 application
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:27:5-118:19
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:32:5-130:19
 MERGED from [com.jakewharton.hugo:hugo-runtime:1.2.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\hugo-runtime-1.2.1.aar\d95d7d42d1a47ebf5dbf21baaf97355a\AndroidManifest.xml:9:5-20
 MERGED from [com.jakewharton.hugo:hugo-runtime:1.2.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\hugo-runtime-1.2.1.aar\d95d7d42d1a47ebf5dbf21baaf97355a\AndroidManifest.xml:9:5-20
+MERGED from [:sinch-android-rtc:3.12.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.3.aar\35249796217904c7b661e0f7d4f95ec4\AndroidManifest.xml:11:5-17:19
+MERGED from [:sinch-android-rtc:3.12.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.3.aar\35249796217904c7b661e0f7d4f95ec4\AndroidManifest.xml:11:5-17:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\5e217ad22b4da4576423b6798138f3a7\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\5e217ad22b4da4576423b6798138f3a7\AndroidManifest.xml:25:5-29:19
 MERGED from [com.github.esafirm.android-image-picker:imagepicker:1.9.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\imagepicker-1.9.0.aar\c13bafba3be3e4a35da727b25e7a1ee1\AndroidManifest.xml:15:5-30:19
@@ -184,6 +212,14 @@ MERGED from [com.google.firebase:firebase-core:15.0.0] C:\Users\Malik Hamid\.gra
 MERGED from [com.google.firebase:firebase-core:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-core-15.0.0.aar\b95d518d30d1b971ef3729a65760aa90\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-places:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-places-15.0.0.aar\c1caf287bc658559800bc1d3be3e4cf0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-places:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-places-15.0.0.aar\c1caf287bc658559800bc1d3be3e4cf0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\1a0fd33370775e13c1e2849352fd72d5\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\1a0fd33370775e13c1e2849352fd72d5\AndroidManifest.xml:30:5-20
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.4.4.aar\7405c2ee373db0bb8080afe2701c4962\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.4.4.aar\7405c2ee373db0bb8080afe2701c4962\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.0.aar\c5d21c1c1a07c196cd87163cc2b15926\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.0.aar\c5d21c1c1a07c196cd87163cc2b15926\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.0.aar\617211f43cfe28f33b3cfa121d0c7b48\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.0.aar\617211f43cfe28f33b3cfa121d0c7b48\AndroidManifest.xml:7:5-20
 MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\com.amulyakhare.textdrawable-1.0.1.aar\f31bc2712d7b7f081ebef9cdaeddf806\AndroidManifest.xml:12:5-20
 MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\com.amulyakhare.textdrawable-1.0.1.aar\f31bc2712d7b7f081ebef9cdaeddf806\AndroidManifest.xml:12:5-20
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\4928f7e155bba5fcdbf17ef88aca9538\AndroidManifest.xml:9:5-20
@@ -204,8 +240,8 @@ MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.grad
 MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.1.0.aar\376c099edfce4bd6678e992d5a912608\AndroidManifest.xml:34:5-63:19
 MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-common-15.0.1.aar\5ffd0d3c1a6cdb390333976fbe9de1ab\AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-common-15.0.1.aar\5ffd0d3c1a6cdb390333976fbe9de1ab\AndroidManifest.xml:7:5-13:19
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\eda1a106bb4b4c79f65e879a0aafb40a\AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\eda1a106bb4b4c79f65e879a0aafb40a\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.0.aar\e698abb86f33b70ab72da2086668abb3\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.0.aar\e698abb86f33b70ab72da2086668abb3\AndroidManifest.xml:26:5-20
 MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-15.0.0.aar\14a2bce431d9bb8f7ae4d8964168ea34\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-15.0.0.aar\14a2bce431d9bb8f7ae4d8964168ea34\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\ab6977e1f087e9cb3f7446cc1904aa59\AndroidManifest.xml:22:5-27:19
@@ -222,8 +258,6 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Mali
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\14e38bb80d38f6e79269ebf4e3ad3bc6\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\0998b271cbe45cf0e40e097270b01022\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\0998b271cbe45cf0e40e097270b01022\AndroidManifest.xml:9:5-20
-MERGED from [:sinch-android-rtc:3.12.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.3.aar\35249796217904c7b661e0f7d4f95ec4\AndroidManifest.xml:11:5-17:19
-MERGED from [:sinch-android-rtc:3.12.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.3.aar\35249796217904c7b661e0f7d4f95ec4\AndroidManifest.xml:11:5-17:19
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\afb440d862ab1f7cbd23f89d4d7b6296\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\afb440d862ab1f7cbd23f89d4d7b6296\AndroidManifest.xml:22:5-26:19
 MERGED from [com.facebook.android:facebook-core:4.35.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\facebook-core-4.35.0.aar\9bd51714f606fe33a3b99f8c79756e88\AndroidManifest.xml:28:5-51:19
@@ -231,137 +265,127 @@ MERGED from [com.facebook.android:facebook-core:4.35.0] C:\Users\Malik Hamid\.gr
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.2.aar\ca46f72b3396ca7b4ca9cea0cde5d477\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.2.aar\ca46f72b3396ca7b4ca9cea0cde5d477\AndroidManifest.xml:22:5-20
 	android:supportsRtl
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:32:9-35
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:37:9-35
 	android:label
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:31:9-41
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:36:9-41
 	android:icon
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:30:9-43
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:35:9-43
 	android:allowBackup
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:29:9-35
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:34:9-35
 	android:theme
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:38:9-40
+	android:name
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:33:9-40
-	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:28:9-40
 service#com.verbosetech.yoohoo.services.SinchService
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:34:9-58
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:39:9-58
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:34:18-55
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:39:18-55
 activity#com.verbosetech.yoohoo.activities.MainActivity
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:36:9-40:70
-	android:screenOrientation
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:39:13-49
-	android:launchMode
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:38:13-43
-	android:windowSoftInputMode
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:40:13-67
-	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:37:13-52
-activity#com.verbosetech.yoohoo.activities.ChatActivity
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:41:9-49:20
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:41:9-45:70
 	android:screenOrientation
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:44:13-49
-	android:parentActivityName
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:43:13-66
+	android:launchMode
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:43:13-43
 	android:windowSoftInputMode
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:45:13-67
 	android:name
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:42:13-52
+activity#com.verbosetech.yoohoo.activities.ChatActivity
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:46:9-54:20
+	android:screenOrientation
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:49:13-49
+	android:parentActivityName
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:48:13-66
+	android:windowSoftInputMode
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:50:13-67
+	android:name
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:47:13-52
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:46:13-48:60
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:51:13-53:60
 	android:value
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:48:17-57
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:53:17-57
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:47:17-63
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:52:17-63
 activity#com.verbosetech.yoohoo.activities.ImageViewerActivity
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:50:9-68
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:55:9-68
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:50:19-65
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:55:19-65
 service#com.verbosetech.yoohoo.services.FirebaseChatService
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:52:9-54:38
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:57:9-59:38
 	android:enabled
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:54:13-35
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:59:13-35
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:53:13-57
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:58:13-57
 receiver#com.verbosetech.yoohoo.services.RestartServiceReceiver
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:56:9-64:20
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:61:9-69:20
 	android:enabled
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:58:13-35
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:63:13-35
 	android:exported
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:59:13-37
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:64:13-37
 	android:permission
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:60:13-40
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:65:13-40
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:57:13-60
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:62:13-60
 intent-filter#action:name:RestartService
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:61:13-63:29
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:66:13-68:29
 action#RestartService
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:62:17-57
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:67:17-57
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:62:25-54
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:67:25-54
 receiver#com.verbosetech.yoohoo.receivers.ConnectivityReceiver
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:65:9-71:20
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:70:9-76:20
 	android:enabled
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:67:13-35
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:72:13-35
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:66:13-59
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:71:13-59
 intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:68:13-70:29
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:73:13-75:29
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:69:17-79
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:74:17-79
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:69:25-76
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:74:25-76
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:73:9-75:48
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:78:9-80:55
 	android:value
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:75:13-45
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:80:13-52
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:74:13-58
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:79:13-58
 provider#com.verbosetech.yoohoo.utils.MyFileProvider
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:77:9-86:20
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:82:9-91:20
 	android:grantUriPermissions
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:81:13-47
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:86:13-47
 	android:authorities
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:79:13-52
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:84:13-52
 	android:exported
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:80:13-37
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:85:13-37
 	tools:replace
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:82:13-48
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:87:13-48
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:78:13-49
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:83:13-49
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:83:13-85:54
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:88:13-90:54
 	android:resource
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:85:17-51
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:90:17-51
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:84:17-67
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:89:17-67
 activity#com.verbosetech.yoohoo.activities.ContactViewerActivity
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:88:9-91:70
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:93:9-96:70
 	android:screenOrientation
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:90:13-49
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:95:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:91:13-67
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:96:13-67
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:89:13-61
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:94:13-61
 activity#com.verbosetech.yoohoo.activities.ChatDetailActivity
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:92:9-95:70
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:97:9-100:70
 	android:screenOrientation
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:94:13-49
-	android:windowSoftInputMode
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:95:13-67
-	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:93:13-58
-activity#com.verbosetech.yoohoo.activities.SignInActivity
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:96:9-100:70
-	android:screenOrientation
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:98:13-49
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:99:13-49
 	android:windowSoftInputMode
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:100:13-67
-	android:theme
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:99:13-52
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:97:13-54
-activity#com.verbosetech.yoohoo.activities.SplashActivity
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:101:9-111:20
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:98:13-58
+activity#com.verbosetech.yoohoo.activities.SignInActivity
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:101:9-105:70
 	android:screenOrientation
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:103:13-49
 	android:windowSoftInputMode
@@ -370,34 +394,50 @@ ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidM
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:104:13-52
 	android:name
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:102:13-54
+activity#com.verbosetech.yoohoo.activities.SplashActivity
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:106:9-116:20
+	android:screenOrientation
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:108:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:110:13-67
+	android:theme
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:109:13-52
+	android:name
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:107:13-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:106:13-110:29
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:111:13-115:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:107:17-69
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:112:17-69
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:107:25-66
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:112:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:109:17-77
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:114:17-77
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:109:27-74
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:114:27-74
 activity#com.verbosetech.yoohoo.activities.CallScreenActivity
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:112:9-67
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:117:9-67
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:112:19-64
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:117:19-64
 activity#com.verbosetech.yoohoo.activities.IncomingCallScreenActivity
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:113:9-115:40
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:118:9-120:40
 	android:noHistory
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:115:13-37
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:120:13-37
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:114:13-66
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:119:13-66
 activity#com.verbosetech.yoohoo.activities.CountrySelectionActivity
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:116:9-73
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:121:9-73
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:116:19-70
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:121:19-70
 activity#com.verbosetech.yoohoo.activities.SecretChatActivityActivity
-ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:117:9-84
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:122:9-84
 	android:name
-		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:117:19-72
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:122:19-72
+activity#com.verbosetech.yoohoo.activities.MapsFregment
+ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:126:9-128:59
+	android:windowSoftInputMode
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:128:13-56
+	android:name
+		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml:127:13-52
 uses-sdk
 INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml
@@ -406,10 +446,12 @@ MERGED from [io.realm:realm-android-library:3.1.4] C:\Users\Malik Hamid\.gradle\
 MERGED from [io.realm:realm-android-library:3.1.4] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\realm-android-library-3.1.4.aar\7d9d5179f973163edc17b8af65c75660\AndroidManifest.xml:7:5-9:41
 MERGED from [com.jakewharton.hugo:hugo-runtime:1.2.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\hugo-runtime-1.2.1.aar\d95d7d42d1a47ebf5dbf21baaf97355a\AndroidManifest.xml:7:5-43
 MERGED from [com.jakewharton.hugo:hugo-runtime:1.2.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\hugo-runtime-1.2.1.aar\d95d7d42d1a47ebf5dbf21baaf97355a\AndroidManifest.xml:7:5-43
-MERGED from [com.github.hotchemi:permissionsdispatcher:2.4.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\permissionsdispatcher-2.4.0.aar\93532c66f171bdec61e68af7030ed942\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.hotchemi:permissionsdispatcher:2.4.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\permissionsdispatcher-2.4.0.aar\93532c66f171bdec61e68af7030ed942\AndroidManifest.xml:6:5-8:41
 MERGED from [com.android.support:multidex:1.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\8e9b76d8c4a7e884345eb4240e642a7d\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:multidex:1.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\8e9b76d8c4a7e884345eb4240e642a7d\AndroidManifest.xml:20:5-43
+MERGED from [:sinch-android-rtc:3.12.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.3.aar\35249796217904c7b661e0f7d4f95ec4\AndroidManifest.xml:7:5-9:41
+MERGED from [:sinch-android-rtc:3.12.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.3.aar\35249796217904c7b661e0f7d4f95ec4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.hotchemi:permissionsdispatcher:2.4.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\permissionsdispatcher-2.4.0.aar\93532c66f171bdec61e68af7030ed942\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.hotchemi:permissionsdispatcher:2.4.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\permissionsdispatcher-2.4.0.aar\93532c66f171bdec61e68af7030ed942\AndroidManifest.xml:6:5-8:41
 MERGED from [:countrypicker] C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\countrypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:countrypicker] C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\countrypicker\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:26.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\5e217ad22b4da4576423b6798138f3a7\AndroidManifest.xml:21:5-23:62
@@ -446,6 +488,14 @@ MERGED from [com.google.firebase:firebase-core:15.0.0] C:\Users\Malik Hamid\.gra
 MERGED from [com.google.firebase:firebase-core:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-core-15.0.0.aar\b95d518d30d1b971ef3729a65760aa90\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-places:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-places-15.0.0.aar\c1caf287bc658559800bc1d3be3e4cf0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-places-15.0.0.aar\c1caf287bc658559800bc1d3be3e4cf0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\1a0fd33370775e13c1e2849352fd72d5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\1a0fd33370775e13c1e2849352fd72d5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.4.4.aar\7405c2ee373db0bb8080afe2701c4962\AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.4.4.aar\7405c2ee373db0bb8080afe2701c4962\AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.0.aar\c5d21c1c1a07c196cd87163cc2b15926\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.0.aar\c5d21c1c1a07c196cd87163cc2b15926\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.0.aar\617211f43cfe28f33b3cfa121d0c7b48\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.0.aar\617211f43cfe28f33b3cfa121d0c7b48\AndroidManifest.xml:5:5-44
 MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\com.amulyakhare.textdrawable-1.0.1.aar\f31bc2712d7b7f081ebef9cdaeddf806\AndroidManifest.xml:8:5-10:41
 MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\com.amulyakhare.textdrawable-1.0.1.aar\f31bc2712d7b7f081ebef9cdaeddf806\AndroidManifest.xml:8:5-10:41
 MERGED from [com.jakewharton:butterknife:8.8.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.0.aar\fa862fa7b59c7acda812054882659e25\AndroidManifest.xml:5:5-43
@@ -478,8 +528,8 @@ MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Malik Hamid\.g
 MERGED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-common-15.0.1.aar\5ffd0d3c1a6cdb390333976fbe9de1ab\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\b4272544320bb52b317f05cc40761c79\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\b4272544320bb52b317f05cc40761c79\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\eda1a106bb4b4c79f65e879a0aafb40a\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\eda1a106bb4b4c79f65e879a0aafb40a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.0.aar\e698abb86f33b70ab72da2086668abb3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.0.aar\e698abb86f33b70ab72da2086668abb3\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-15.0.0.aar\14a2bce431d9bb8f7ae4d8964168ea34\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-15.0.0.aar\14a2bce431d9bb8f7ae4d8964168ea34\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\ab6977e1f087e9cb3f7446cc1904aa59\AndroidManifest.xml:20:5-44
@@ -502,8 +552,6 @@ MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Malik Hamid\.gradle
 MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\b33ac687c912d3730e6505f792a4ef82\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\0998b271cbe45cf0e40e097270b01022\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\0998b271cbe45cf0e40e097270b01022\AndroidManifest.xml:5:5-7:41
-MERGED from [:sinch-android-rtc:3.12.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.3.aar\35249796217904c7b661e0f7d4f95ec4\AndroidManifest.xml:7:5-9:41
-MERGED from [:sinch-android-rtc:3.12.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.3.aar\35249796217904c7b661e0f7d4f95ec4\AndroidManifest.xml:7:5-9:41
 MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\9a866ea01c1bc01209c19fb6b207db38\AndroidManifest.xml:7:5-43
 MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\9a866ea01c1bc01209c19fb6b207db38\AndroidManifest.xml:7:5-43
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\afb440d862ab1f7cbd23f89d4d7b6296\AndroidManifest.xml:20:5-44
@@ -540,6 +588,16 @@ INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\Andro
 		INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Malik Hamid\Downloads\Compressed\Oyapp\app\src\main\AndroidManifest.xml
+service#com.sinch.android.rtc.internal.client.fcm.InstanceIDTokenService
+ADDED from [:sinch-android-rtc:3.12.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.3.aar\35249796217904c7b661e0f7d4f95ec4\AndroidManifest.xml:12:9-16:19
+	android:name
+		ADDED from [:sinch-android-rtc:3.12.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.3.aar\35249796217904c7b661e0f7d4f95ec4\AndroidManifest.xml:12:18-97
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [:sinch-android-rtc:3.12.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.3.aar\35249796217904c7b661e0f7d4f95ec4\AndroidManifest.xml:13:13-15:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [:sinch-android-rtc:3.12.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.3.aar\35249796217904c7b661e0f7d4f95ec4\AndroidManifest.xml:14:17-80
+	android:name
+		ADDED from [:sinch-android-rtc:3.12.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.3.aar\35249796217904c7b661e0f7d4f95ec4\AndroidManifest.xml:14:25-77
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\5e217ad22b4da4576423b6798138f3a7\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-dynamic-animation:26.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\support-dynamic-animation-26.1.0.aar\1fb2d5327912b2f167dec5844f25c041\AndroidManifest.xml:23:9-25:38
@@ -600,6 +658,28 @@ ADDED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\Malik Hamid\.grad
 		ADDED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-auth-15.0.0.aar\4cfc5fced2e33ae295a5f113f18558f6\AndroidManifest.xml:29:13-72
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-auth-15.0.0.aar\4cfc5fced2e33ae295a5f113f18558f6\AndroidManifest.xml:24:13-85
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\1a0fd33370775e13c1e2849352fd72d5\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\1a0fd33370775e13c1e2849352fd72d5\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\1a0fd33370775e13c1e2849352fd72d5\AndroidManifest.xml:28:9-32
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:0.4.4] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.4.4.aar\7405c2ee373db0bb8080afe2701c4962\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\14e38bb80d38f6e79269ebf4e3ad3bc6\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\14e38bb80d38f6e79269ebf4e3ad3bc6\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:0.4.4] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.4.4.aar\7405c2ee373db0bb8080afe2701c4962\AndroidManifest.xml:10:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:0.4.4] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.4.4.aar\7405c2ee373db0bb8080afe2701c4962\AndroidManifest.xml:9:13-58
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.0.aar\c5d21c1c1a07c196cd87163cc2b15926\AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.1.0.aar\376c099edfce4bd6678e992d5a912608\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.1.0.aar\376c099edfce4bd6678e992d5a912608\AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.0.aar\e698abb86f33b70ab72da2086668abb3\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.0.aar\e698abb86f33b70ab72da2086668abb3\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.0.aar\c5d21c1c1a07c196cd87163cc2b15926\AndroidManifest.xml:23:22-79
 activity#droidninja.filepicker.FilePickerActivity
 ADDED from [com.droidninja:filepicker:2.1.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\filepicker-2.1.1.aar\f065ae1f6ed74f285dcd7d689c607679\AndroidManifest.xml:17:9-19:62
 	android:configChanges
@@ -682,10 +762,6 @@ ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Malik Hamid\
 		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-analytics-15.0.2.aar\e953e16d4c43e3547f030a4e18ecc4f0\AndroidManifest.xml:52:13-69
 	android:name
 		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-analytics-15.0.2.aar\e953e16d4c43e3547f030a4e18ecc4f0\AndroidManifest.xml:49:13-87
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.1.0.aar\376c099edfce4bd6678e992d5a912608\AndroidManifest.xml:26:5-82
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.1.0.aar\376c099edfce4bd6678e992d5a912608\AndroidManifest.xml:26:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.1.0.aar\376c099edfce4bd6678e992d5a912608\AndroidManifest.xml:28:5-30:47
 	android:protectionLevel
@@ -746,14 +822,6 @@ ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradl
 		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.1.0.aar\376c099edfce4bd6678e992d5a912608\AndroidManifest.xml:58:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.1.0.aar\376c099edfce4bd6678e992d5a912608\AndroidManifest.xml:57:13-77
-intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.1.0.aar\376c099edfce4bd6678e992d5a912608\AndroidManifest.xml:59:13-61:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.1.0.aar\376c099edfce4bd6678e992d5a912608\AndroidManifest.xml:59:28-51
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.1.0.aar\376c099edfce4bd6678e992d5a912608\AndroidManifest.xml:60:17-80
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.1.0.aar\376c099edfce4bd6678e992d5a912608\AndroidManifest.xml:60:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-common-15.0.1.aar\5ffd0d3c1a6cdb390333976fbe9de1ab\AndroidManifest.xml:8:9-12:39
 	android:authorities
@@ -764,12 +832,6 @@ ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Malik Hamid\.gr
 		ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-common-15.0.1.aar\5ffd0d3c1a6cdb390333976fbe9de1ab\AndroidManifest.xml:12:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-common:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\firebase-common-15.0.1.aar\5ffd0d3c1a6cdb390333976fbe9de1ab\AndroidManifest.xml:9:13-77
-uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\eda1a106bb4b4c79f65e879a0aafb40a\AndroidManifest.xml:26:5-28:35
-	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\eda1a106bb4b4c79f65e879a0aafb40a\AndroidManifest.xml:27:9-41
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\eda1a106bb4b4c79f65e879a0aafb40a\AndroidManifest.xml:28:9-32
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\ab6977e1f087e9cb3f7446cc1904aa59\AndroidManifest.xml:23:9-26:75
 	android:exported
@@ -778,16 +840,6 @@ ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Malik Ham
 		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\ab6977e1f087e9cb3f7446cc1904aa59\AndroidManifest.xml:26:13-72
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\ab6977e1f087e9cb3f7446cc1904aa59\AndroidManifest.xml:24:13-79
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\14e38bb80d38f6e79269ebf4e3ad3bc6\AndroidManifest.xml:23:9-25:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\14e38bb80d38f6e79269ebf4e3ad3bc6\AndroidManifest.xml:25:13-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\14e38bb80d38f6e79269ebf4e3ad3bc6\AndroidManifest.xml:24:13-58
-service#com.sinch.android.rtc.internal.client.fcm.InstanceIDTokenService
-ADDED from [:sinch-android-rtc:3.12.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.3.aar\35249796217904c7b661e0f7d4f95ec4\AndroidManifest.xml:12:9-16:19
-	android:name
-		ADDED from [:sinch-android-rtc:3.12.3] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\sinch-android-rtc-3.12.3.aar\35249796217904c7b661e0f7d4f95ec4\AndroidManifest.xml:12:18-97
 provider#com.facebook.internal.FacebookInitProvider
 ADDED from [com.facebook.android:facebook-core:4.35.0] C:\Users\Malik Hamid\.gradle\caches\transforms-1\files-1.1\facebook-core-4.35.0.aar\9bd51714f606fe33a3b99f8c79756e88\AndroidManifest.xml:39:9-42:40
 	android:authorities

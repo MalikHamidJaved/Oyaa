@@ -134,7 +134,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/ic_more_nearby" />
+                        android:src="@drawable/if_call_out" />
 
                     <TextView
                         android:layout_width="match_parent"
